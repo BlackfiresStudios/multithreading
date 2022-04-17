@@ -1,4 +1,4 @@
-void threadFindDuplicateIndex(std::vector<IndexInfo>& destination, std::vector<IndexInfo>& fromFile, IndexRange range , std::mutex& destinationBlock)
+		void threadFindDuplicateIndex(std::vector<IndexInfo>& destination, std::vector<IndexInfo>& fromFile, IndexRange range , std::mutex& destinationBlock)
 		{
 			bool findFlag = false;
 
